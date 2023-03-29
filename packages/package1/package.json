@@ -1,10 +1,10 @@
 {
-  "name": "filter-main-delete-files",
+  "name": "package1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ci-check": "turbo run aScript --filter=[origin/main]"
+    "aScript": "echo 'Running aScript in package1'"
   },
   "keywords": [],
   "author": "",
