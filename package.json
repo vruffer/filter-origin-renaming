@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ci-check": "turbo run aScript --filter=[origin/main]"
+    "ci-check": "turbo run --filter=...[origin/main] aScript"
   },
   "keywords": [],
   "author": "",
